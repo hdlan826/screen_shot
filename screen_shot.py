@@ -51,6 +51,6 @@ def downloadFriends(url_prefix="https://image.thum.io/get/width/400/crop/800/all
 
 
 if __name__ == '__main__':
-    getLinkFriends("https://blog.zysys.top/link/")
-    getGiteeFriends("hdlan", "friends")
+    getLinkFriends("http://192.168.85.131:4000/link/")
+    getGiteeFriends("hdlan", "friend")
     downloadFriends()
